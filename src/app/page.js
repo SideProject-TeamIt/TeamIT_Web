@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-gray-100">
-      <h1 className="text-3xl font-bold">TeamIT에 오신 걸 환영합니다!</h1>
-    </main>
-  )
+    <div className="p-8">
+      <h1 className="text-left font-bold text-blue-600">Tailwind 작동 중 ✅</h1>
+    </div>
+  );
 }
