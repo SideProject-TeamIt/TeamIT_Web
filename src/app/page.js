@@ -1,7 +1,10 @@
-export default function Home() {
+'use client';
+
+export default function TeamPage() {
+
   return (
-    <div className="p-8">
-      <h1 className="text-left font-bold text-blue-600">Tailwind 작동 중 ✅</h1>
+    <div>
+      <h1>메인 페이지</h1>
     </div>
   );
 }
