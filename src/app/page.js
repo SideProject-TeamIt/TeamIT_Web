@@ -1,7 +1,10 @@
-export default function Home() {
+'use client';
+
+export default function TeamPage() {
+
   return (
-    <main className="flex min-h-screen items-center justify-center bg-gray-100">
-      <h1 className="text-3xl font-bold">TeamIT에 오신 걸 환영합니다!</h1>
-    </main>
-  )
+    <div>
+      <h1>메인 페이지</h1>
+    </div>
+  );
 }
