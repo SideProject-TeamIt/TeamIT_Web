@@ -1,10 +1,15 @@
-'use client';
+import HeroSection from '@/components/home/HeroSection';
+import RoleSection from '@/components/home/RoleSection';
+import SuccessStories from '@/components/home/SuccessStories';
+import ServiceBenefits from '@/components/home/ServiceBenefits';
 
-export default function TeamPage() {
-
+export default function Home() {
   return (
-    <div>
-      <h1>메인 페이지</h1>
-    </div>
+    <>
+      <HeroSection />
+      <RoleSection />
+      <SuccessStories />
+      <ServiceBenefits />
+    </>
   );
 }
