@@ -26,7 +26,7 @@ export default function Navbar() {
           ))}
           <Link
             href="/login"
-            className="ml-4 px-5 py-2.5 bg-blue-500 text-white rounded-xl hover:bg-blue-600 transition"
+            className="ml-4 px-5 py-2.5 bg-basecolor text-white rounded-xl hover:bg-blue-500 transition"
           >
             로그인
           </Link>
