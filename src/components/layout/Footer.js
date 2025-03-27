@@ -13,7 +13,7 @@ const footerData = [
   {
     title: '회사',
     links: [
-      { text: '회사 소개', href: '/about' },
+      { text: '회사 소개', href: '/' },
       { text: '이용약관', href: '/terms' },
       { text: '개인정보처리방침', href: '/privacy' },
     ],
