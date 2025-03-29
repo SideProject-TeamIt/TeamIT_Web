@@ -43,7 +43,7 @@ export default function Navbar() {
                     src="/underline.png"
                     alt="선택 표시"
                     width={40}
-                    height={6} // ⬅️ 두께 증가
+                    height={6}
                     className="mt-2 mx-auto"
                   />
                 )}
