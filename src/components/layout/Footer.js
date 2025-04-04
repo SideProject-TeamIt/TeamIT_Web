@@ -29,7 +29,7 @@ const footerData = [
 
 export default function Footer() {
   return (
-    <footer className="bg-white border-t mt-20">
+    <footer className="bg-white border-t">
       <div className="max-w-screen-xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-8 text-sm text-gray-600">
         {/* 로고 및 소개 */}
         <div className="flex flex-col items-start gap-2">
