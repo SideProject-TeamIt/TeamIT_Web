@@ -19,11 +19,11 @@ const socialLogins = [
   },
   {
     provider: "google",
-    bgColor: "bg-white border",
-    textColor: "text-black",
+    bgColor: "bg-white border border-gray-300 hover:border-gray-400",
+    textColor: "text-gray-800 hover:text-black",
     text: "Google로 계속하기",
-    icon: <FaGoogle />,
-  },
+    icon: <FaGoogle/>,
+  }
 ];
 
 export default function SocialLoginGroup() {
